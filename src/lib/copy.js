@@ -1,211 +1,211 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// COPY.JS — Fuente única de TODO el texto visible de la landing.
-// Doc §7: cero texto hardcodeado en componentes. Si está en pantalla, está aquí.
+// COPY.JS — A landing page TELJES látható szövegének forrása.
+// Doc §7: Semmilyen szöveg nincs a komponensekbe égetve. Ha a képernyőn van, akkor itt is.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const copy = {
-  // ── SEO / METADATA (Layout.astro lo lee) ──────────────────────────────────
+  // ── SEO / METADATA (A Layout.astro olvassa) ────────────────────────────────
   metadata: {
-    lang: 'pt-BR',
-    title: '150 receitas de drinks gourmet',
+    lang: 'hu',
+    title: '150 prémium koktélrecept otthonra',
     description:
-      'Receitas de drinks prontas para vender — ingredientes simples, produção rápida e margem de lucro alta. Comece a faturar até R$3.000/mês com bônus exclusivos.',
+      'Buli-kész koktélreceptek — egyszerű hozzávalók, gyors elkészítés. Nyűgözd le a barátaidat, spórolj a drága bárokon és légy te az este sztárja. Exkluzív bónuszokkal.',
     canonical: 'https://150receitascopao.netlify.app',
     ogImage: '/og-cover.jpg',
     ogType: 'website',
-    siteName: 'MUNDO DOS DRINKS',
+    siteName: 'A KOKTÉLOK VILÁGA',
   },
 
-  // ── 1. TIMER STICKY ARRIBA ────────────────────────────────────────────────
+  // ── 1. TIMER STICKY FEJLÉC ──────────────────────────────────────────────────
   timerBar: {
     icon: '⏰',
-    label: 'Promoção encerra em:',
+    label: 'Az ajánlat lejár:',
     initialMinutes: 9,
     initialSeconds: 57,
   },
 
-  // ── 2. HERO ───────────────────────────────────────────────────────────────
+  // ── 2. HERO SZEKCIÓ ─────────────────────────────────────────────────────────
   hero: {
-    tag: '🍋 Oferta Exclusiva',
-    titleHighlight: '150 Receitas de copão Gourmet',
-    titleConnector: 'para Vender',
-    titleHighlightGreen: 'R$3.000',
-    titleEnd: 'Começando do Zero',
-    deliveryLabel: 'Você recebe imediatamente no',
+    tag: '🍋 Exkluzív Ajánlat',
+    titleHighlight: '150 Zseniális Koktélrecept',
+    titleConnector: 'a Te',
+    titleHighlightGreen: 'Szórakozásodért',
+    titleEnd: 'Még ha teljesen kezdő is vagy',
+    deliveryLabel: 'Azonnali hozzáférés a következőn keresztül:',
     deliveryChannels: [
       { label: 'WhatsApp', kind: 'whatsapp' },
       { label: 'Email', kind: 'email' },
     ],
-    videoAlt: 'Apresentação do kit 150 receitas de drinks gourmet',
-    ctaLabel: '✅ QUERO GARANTIR MINHAS RECEITAS AGORA',
-    ctaSub: '🔒 Compra 100% segura • Acesso imediato',
+    videoAlt: 'A 150 otthoni koktélrecept csomag bemutatása',
+    ctaLabel: '✅ KÉREM A RECEPTEKET MOST',
+    ctaSub: '🔒 100% biztonságos vásárlás • Azonnali hozzáférés',
   },
 
-  // ── 3. BENEFÍCIOS ─────────────────────────────────────────────────────────
+  // ── 3. ELŐNYÖK ──────────────────────────────────────────────────────────────
   benefits: {
     intro:
-      'Receitas de drinks prontas para vender — ingredientes simples, produção rápida,',
-    introStrong: 'alto valor percebido e margem de lucro que vai te surpreender!',
+      'Receptek, amiket a maximális élvezetre terveztünk — egyszerű hozzávalók, gyors elkészítés,',
+    introStrong: 'elképesztő ízvilág és látvány, amivel minden vendégedet lenyűgözöd!',
     items: [
-      'Qualquer pessoa consegue fazer',
-      'Sem cozinha profissional ou equipamentos caros',
-      'Receitas prontas, testadas e com custo baixo',
-      'Perfeito para vender no WhatsApp, rua ou delivery',
+      'Bármilyen koktélt elkészíteni előzetes tapasztalat nélkül',
+      'Varázsolni profi eszközök és drága konyha nélkül',
+      'Letesztelt recepteket élvezni könnyen beszerezhető hozzávalókból',
+      'A társaság sztárjává válni minden házibulin, nyaraláson vagy baráti összejövetelen',
     ],
-    ctaLabel: '🍹 QUERO GARANTIR MINHAS RECEITAS AGORA',
+    ctaLabel: '🍹 KÉREM A RECEPTEKET MOST',
   },
 
-  // ── 4. CARRUSEL DE RECETAS ────────────────────────────────────────────────
+  // ── 4. RECEPT KÖRHintA (CAROUSEL) ───────────────────────────────────────────
   carousel: {
-    title: '🍹 Algumas das receitas que você irá',
-    titleHighlight: 'aprender e lucrar!',
+    title: '🍹 Íme néhány recept, amit a barátaiddal',
+    titleHighlight: 'élvezhetsz majd!',
     slides: [
-      { caption: 'Copão Beijo Doce', alt: 'Drink Copão Beijo Doce' },
+      { caption: 'Édes csók', alt: 'Édes csók koktél' },
       {
-        caption: 'Espanhola de Vinho c/ Maracujá',
-        alt: 'Drink Espanhola de Vinho com Maracujá',
+        caption: 'Spanyol bor maracujával',
+        alt: 'Spanyol bor maracujával koktél',
       },
-      { caption: 'MaracuBeats Cremosa', alt: 'Drink MaracuBeats Cremosa' },
-      { caption: 'Batida de Bala Halls', alt: 'Drink Batida de Bala Halls' },
-      { caption: 'Drink do Verão', alt: 'Drink do Verão' },
+      { caption: 'Krémes MaracuBeats', alt: 'Krémes MaracuBeats koktél' },
+      { caption: 'Halls cukorkás koktél', alt: 'Halls cukorkás koktél' },
+      { caption: 'Nyári szellő', alt: 'Nyári szellő koktél' },
       {
-        caption: 'Caipirinha de Maracujá c/ Café',
-        alt: 'Drink Caipirinha de Maracujá com Café',
+        caption: 'Caipirinha maracujával és kávéval',
+        alt: 'Caipirinha maracujával és kávéval koktél',
       },
     ],
-    prevLabel: 'Slide anterior',
-    nextLabel: 'Próximo slide',
-    dotLabel: 'Ir para o slide',
+    prevLabel: 'Előző dia',
+    nextLabel: 'Következő dia',
+    dotLabel: 'Ugrás a diára',
   },
 
-  // ── 5. BÔNUS ──────────────────────────────────────────────────────────────
+  // ── 5. BÓNUSZOK ─────────────────────────────────────────────────────────────
   bonuses: {
-    title: '🎁 E ainda tem',
-    titleHighlight: 'BÔNUS!',
+    title: '🎁 És persze, ne feledkezzünk meg a',
+    titleHighlight: 'BÓNUSZOKRÓL!',
     items: [
       {
-        tag: 'Bônus 1',
-        title: '50 Receitas Alcoólicas de Batidas na Garrafa',
-        description: 'Receitas prontas para vender, sem os bônus exclusivos.',
-        alt: '50 Receitas Alcoólicas de Batidas na Garrafa',
+        tag: '1. Bónusz',
+        title: '50 Recept alkoholos shotokhoz és puncsokhoz',
+        description: 'Tökéletes partitalok, amiket gyorsan összedobhatsz és megoszthatsz a társasággal.',
+        alt: '50 Recept alkoholos shotokhoz és puncsokhoz',
       },
       {
-        tag: 'Bônus 2',
-        title: 'Tabela de Precificação — Quanto Cobrar em Cada Receita',
+        tag: '2. Bónusz',
+        title: 'Okos bevásárlólista — hogyan spórolj',
         description:
-          'Saiba exatamente quanto cobrar para lucrar de verdade em cada drink que vender.',
-        alt: 'Tabela de Precificação dos drinks',
+          'Tudd meg pontosan, mit vegyél a top koktélokhoz, anélkül, hogy a gatyádat is otthagynád a drága bárokban.',
+        alt: 'Bevásárlólista és kalkulátor',
       },
       {
-        tag: 'Bônus 3',
-        title: '✅ Roteiro Pronto: Como Anunciar no WhatsApp e Fechar Vendas',
-        description: 'Scripts prontos para você copiar, colar e já começar a vender.',
-        alt: 'Roteiro de vendas pelo WhatsApp',
+        tag: '3. Bónusz',
+        title: '✅ Útmutató: Hogyan szervezz tökéletes koktélozós estét',
+        description: 'Kész ötletek és lépések, hogyan teremts felejthetetlen élményt és nyűgözd le a vendégeket.',
+        alt: 'Útmutató házibulihoz',
       },
       {
-        tag: 'Bônus 4',
-        title: 'Videoaula: Como Embalar e Apresentar para Vender Mais',
+        tag: '4. Bónusz',
+        title: 'Videós oktatóanyag: Díszíts és tálalj úgy, mint a profik',
         description:
-          'Aprenda a deixar seus produtos irresistíveis e cobrar mais caro por isso.',
-        alt: 'Videoaula sobre embalagem e apresentação',
+          'Lest el a gyönyörű tálalás titkait, ami az egyszerű italt egy 5 csillagos mesterművé varázsolja.',
+        alt: 'Videós oktatóanyag koktélok díszítéséhez',
       },
     ],
   },
 
-  // ── 6. PREÇO ──────────────────────────────────────────────────────────────
+  // ── 6. ÁRAZÁS ───────────────────────────────────────────────────────────────
   pricing: {
     sectionId: 'precos',
-    title: 'Escolha como quer começar hoje:',
+    title: 'Válaszd ki, hogyan szeretnél ma belevágni:',
     complete: {
-      badge: '⭐ Mais Vendido',
-      title: 'Kit Completo +150 Receitas de Drinks',
-      descriptionLead: '+150 receitas de drinks na garrafa prontas para vender + todos os',
-      descriptionStrong: 'bônus exclusivos',
-      descriptionTail: 'para você faturar até R$3.000/mês.',
-      mockupAlt: 'Mockup do Kit 150 Receitas de Copão Gourmet',
-      includesLabel: '🎁 Inclui todos os bônus:',
+      badge: '⭐ Legnépszerűbb',
+      title: 'Teljes Csomag: 150+ Koktélrecept',
+      descriptionLead: '150+ recept elképesztő otthoni koktélokhoz + az összes',
+      descriptionStrong: 'exkluzív bónusz,',
+      descriptionTail: 'hogy te lehess a legjobb házi mixer.',
+      mockupAlt: 'A 150 receptes Teljes Csomag látványterve',
+      includesLabel: '🎁 Az összes bónuszt tartalmazza:',
       items: [
-        '+150 receitas de drinks gourmet',
-        'Lista de fornecedores baratos para garrefinhas',
-        'Tabela de precificação — todos os drinks',
-        'Roteiro de vendas pelo WhatsApp',
-        'Videoaula: como embalar e vender mais',
+        '150+ recept prémium koktélokhoz',
+        'Lista a drága italok olcsóbb alternatíváival',
+        'Útmutató az okos bevásárláshoz',
+        'Gyakorlati útmutató a tökéletes házibulihoz',
+        'Videós anyag a profi díszítéshez',
       ],
-      strikePrice: 'De R$59,90',
-      price: 'R$24,90',
-      priceNote: 'acesso imediato',
-      ctaLabel: '🛒 QUERO O KIT COMPLETO',
-      footer: '✅ Acesso imediato · E-mail + WhatsApp · Garantia de 7 dias',
+      strikePrice: 'Normál ár: 9 990 Ft',
+      price: '2 990 Ft',
+      priceNote: 'azonnali hozzáférés',
+      ctaLabel: '🛒 KÉREM A TELJES CSOMAGOT',
+      footer: '✅ Azonnali hozzáférés · Email + WhatsApp · 14 napos garancia',
     },
   },
 
-  // ── 7. GARANTIA ───────────────────────────────────────────────────────────
+  // ── 7. GARANCIA ─────────────────────────────────────────────────────────────
   guarantee: {
     icon: '🛡️',
-    title: 'Garantia de 7 dias',
+    title: '14 napos pénzvisszafizetési garancia',
     description:
-      'Se por qualquer motivo você não gostar, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.',
+      'Ha bármilyen okból nem lennél lenyűgözve, az utolsó fillérig visszafizetjük az árát. Nincsenek kérdések, nincs felesleges idegeskedés.',
   },
 
-  // ── 8. FAQ ────────────────────────────────────────────────────────────────
+  // ── 8. GYIK (Gyakran Ismételt Kérdések) ─────────────────────────────────────
   faq: {
-    title: 'Dúvidas',
-    titleHighlight: 'frequentes:',
+    title: 'Gyakran Ismételt',
+    titleHighlight: 'Kérdések:',
     items: [
       {
-        q: 'Preciso saber cozinhar para comprar?',
-        a: 'Não! As receitas são simples e qualquer pessoa consegue fazer, mesmo sem experiência na cozinha.',
+        q: 'Kell tapasztalat ahhoz, hogy megcsináljam őket?',
+        a: 'Egyáltalán nem! A receptek pofonegyszerűek, bárki el tudja készíteni őket, még akkor is, ha életedben nem kevertél még koktélt.',
       },
       {
-        q: 'Preciso de equipamentos caros ou cozinha profissional?',
-        a: 'Não precisa. Tudo pode ser feito em casa com utensílios simples que você provavelmente já tem.',
+        q: 'Szükségem lesz drága shakerekre és profi felszerelésre?',
+        a: 'Dehogy! Mindent meg tudsz csinálni otthon olyan egyszerű eszközökkel, amik már most is ott vannak a konyhádban.',
       },
       {
-        q: 'Onde vou vender os drinks?',
-        a: 'Você pode vender no WhatsApp, nas redes sociais, em festas, por delivery ou até na rua. O bônus 3 te ensina exatamente como fazer isso.',
+        q: 'Milyen alkalmakhoz illenek ezek a koktélok?',
+        a: 'Bármihez! Egy húzós munkanap utáni lazítástól kezdve, egy romantikus vacsorán át az őrült házibulikig vagy nyaralásokig.',
       },
       {
-        q: 'Quanto posso cobrar por cada garrafa?',
-        a: 'Com a tabela de precificação incluída, você vai saber exatamente quanto cobrar para ter uma margem de lucro alta em cada venda.',
+        q: 'Drágák a hozzávalók?',
+        a: 'Nem. Az okos bevásárlólistánkkal megtanulod, hogyan érj el prémium ízvilágot a sarki szupermarketben kapható, megfizethető termékekből.',
       },
       {
-        q: 'Como recebo após a compra?',
-        a: 'O acesso é imediato! Você recebe no e-mail e no WhatsApp assim que o pagamento for confirmado.',
+        q: 'Hogyan kapom meg a csomagot vásárlás után?',
+        a: 'A hozzáférés azonnali! Amint átmegy a fizetés, mindent megkapsz egyenesen az e-mail címedre és WhatsAppra.',
       },
       {
-        q: 'Tenho garantia se não gostar?',
-        a: 'Sim! Você tem 7 dias de garantia total. Se não gostar por qualquer motivo, devolvemos 100% do valor pago.',
+        q: 'Van garancia arra az esetre, ha nem tetszik?',
+        a: 'Naná! Teljes, 14 napos garanciád van. Ha nem vagy elégedett, 100%-ban visszatérítjük a pénzedet.',
       },
     ],
   },
 
-  // ── 9. URGÊNCIA ──────────────────────────────────────────────────────────
+  // ── 9. SÜRGŐSSÉG ────────────────────────────────────────────────────────────
   urgency: {
-    text: '⏰ Não fique esperando — cada dia sem vender é dinheiro perdido!',
+    text: '⏰ Ne halogasd — közeleg a hétvége, és vele egy újabb unalmas este. Változtass ezen még ma!',
   },
 
-  // ── 10. CTA FINAL ─────────────────────────────────────────────────────────
+  // ── 10. VÉGSŐ CTA ───────────────────────────────────────────────────────────
   finalCta: {
-    ctaLabel: '🍹 QUERO ACESSO ÀS 150 RECEITAS AGORA',
-    subText: '🔒 Acesso imediato • Garantia de 7 dias • Pagamento seguro',
+    ctaLabel: '🍹 KÉREM A HOZZÁFÉRÉST A 150 RECEPTHEZ MOST',
+    subText: '🔒 Azonnali hozzáférés • 14 napos garancia • Biztonságos fizetés',
   },
 
-  // ── 11. SEGURIDAD (badges) ────────────────────────────────────────────────
+  // ── 11. BIZTONSÁG (jelvények) ───────────────────────────────────────────────
   security: {
     items: [
-      { icon: '🔒', label: 'SSL Seguro' },
-      { icon: '💳', label: 'Pagamento Protegido' },
-      { icon: '📲', label: 'Acesso Imediato' },
+      { icon: '🔒', label: 'SSL Védelem' },
+      { icon: '💳', label: 'Biztonságos fizetés' },
+      { icon: '📲', label: 'Azonnali hozzáférés' },
     ],
   },
 
-  // ── 12. FOOTER ────────────────────────────────────────────────────────────
+  // ── 12. FOOTER ──────────────────────────────────────────────────────────────
   footer: {
-    text: '© 2026 · MUNDO DOS DRINKS · Todos os direitos reservados',
+    text: '© 2026 · A KOKTÉLOK VILÁGA · Minden jog fenntartva',
   },
 
-  // ── A11Y / texto auxiliar (no visible "directamente" pero usado en aria) ──
+  // ── A11Y / kisegítő szövegek ──
   a11y: {
-    skipToContent: 'Ir para o conteúdo principal',
+    skipToContent: 'Ugrás a fő tartalomra',
   },
 };
