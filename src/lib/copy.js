@@ -7,7 +7,7 @@ export const copy = {
   // ── SEO / METADATA (A Layout.astro olvassa) ────────────────────────────────
   metadata: {
     lang: 'hu',
-    title: '150 prémium koktélrecept otthonra',
+    title: '500 prémium koktélrecept otthonra',
     description:
       'Buli-kész koktélreceptek — egyszerű hozzávalók, gyors elkészítés. Nyűgözd le a barátaidat, spórolj a drága bárokon és légy te az este sztárja. Exkluzív bónuszokkal.',
     canonical: 'https://150receitascopao.netlify.app',
@@ -27,7 +27,7 @@ export const copy = {
   // ── 2. HERO SZEKCIÓ ─────────────────────────────────────────────────────────
   hero: {
     tag: '🍋 Exkluzív Ajánlat',
-    titleHighlight: '150 Zseniális Koktélrecept',
+    titleHighlight: '500 Zseniális Koktélrecept',
     titleConnector: 'a Te',
     titleHighlightGreen: 'Szórakozásodért',
     titleEnd: 'Még ha teljesen kezdő is vagy',
@@ -36,7 +36,7 @@ export const copy = {
       { label: 'WhatsApp', kind: 'whatsapp' },
       { label: 'Email', kind: 'email' },
     ],
-    videoAlt: 'A 150 otthoni koktélrecept csomag bemutatása',
+    videoAlt: 'A 500 otthoni koktélrecept csomag bemutatása',
     ctaLabel: '✅ KÉREM A RECEPTEKET MOST',
     ctaSub: '🔒 100% biztonságos vásárlás • Azonnali hozzáférés',
   },
@@ -118,14 +118,14 @@ export const copy = {
     title: 'Válaszd ki, hogyan szeretnél ma belevágni:',
     complete: {
       badge: '⭐ Legnépszerűbb',
-      title: 'Teljes Csomag: 150+ Koktélrecept',
-      descriptionLead: '150+ recept elképesztő otthoni koktélokhoz + az összes',
+      title: 'Teljes Csomag: 500+ Koktélrecept',
+      descriptionLead: '500+ recept elképesztő otthoni koktélokhoz + az összes',
       descriptionStrong: 'exkluzív bónusz,',
       descriptionTail: 'hogy te lehess a legjobb házi mixer.',
-      mockupAlt: 'A 150 receptes Teljes Csomag látványterve',
+      mockupAlt: 'A 500 receptes Teljes Csomag látványterve',
       includesLabel: '🎁 Az összes bónuszt tartalmazza:',
       items: [
-        '150+ recept prémium koktélokhoz',
+        '500+ recept prémium koktélokhoz',
         'Lista a drága italok olcsóbb alternatíváival',
         'Útmutató az okos bevásárláshoz',
         'Gyakorlati útmutató a tökéletes házibulihoz',
@@ -186,7 +186,7 @@ export const copy = {
 
   // ── 10. VÉGSŐ CTA ───────────────────────────────────────────────────────────
   finalCta: {
-    ctaLabel: '🍹 KÉREM A HOZZÁFÉRÉST A 150 RECEPTHEZ MOST',
+    ctaLabel: '🍹 KÉREM A HOZZÁFÉRÉST A 500 RECEPTHEZ MOST',
     subText: '🔒 Azonnali hozzáférés • 14 napos garancia • Biztonságos fizetés',
   },
 
